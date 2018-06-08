@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>flex-xz</title>
+	<style>
+		.d1{
+			width:960px;
+			margin:auto;
+			border:1px solid blue;
+			display:flex;
+			flex-flow:row wrap;
+			justify-content:space-between;
+		}
+		.d1>div{
+			background:#e8e8e8;
+			margin-bottom:10px;
+		}
+		.d1>div:nth-child(1){
+			width:610px;
+			height:370px;
+		}
+		.d1>div:nth-child(2){
+			width:340px;
+			height:370px;
+		}
+		.d1>div:nth-child(3){
+			width:360px;
+			height:230px;
+		}
+		.product{
+			width:190px;
+			height:230px;
+		}
+	</style>
+</head>
+<body>
+	<div class="d1">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div class="product"></div>
+		<div class="product"></div>
+		<div class="product"></div>
+	</div>
+</body>
+</html>
